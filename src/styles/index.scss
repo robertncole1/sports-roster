@@ -4,3 +4,13 @@
 body {
   background-color: $favColor;
 }
+
+.card-container {
+  display: flex !important;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.card {
+  width: 400px;
+}
